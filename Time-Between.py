@@ -1,3 +1,5 @@
+# Use this script to calculate the time between two dates in days or weeks.
+
 from datetime import datetime
 
 def getTimeChoice():
@@ -14,7 +16,8 @@ def getPeriodChoice():
     return choice
 
 now = datetime.now()
-print("Date today: %s/%s/%s" % (now.day, now.month, now.year) )
+print("Use this script to calculate the time between two dates in days or weeks.")
+print("\nDate today: %s/%s/%s" % (now.day, now.month, now.year) )
 
 timeChoice = getTimeChoice()
 while((timeChoice == "1") or (timeChoice == "2")):

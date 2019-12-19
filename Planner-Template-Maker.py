@@ -1,3 +1,5 @@
+# Use this script to generate dated lines which you can write daily plans on.
+
 weekdays = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 months = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 

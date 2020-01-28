@@ -1,4 +1,4 @@
-# Use this script to convert between UoG grades and bands.
+# Use this script to convert between UoG grades, bands, and percentages.
 
 def chooseConversion():
     print("\n1 - Band to Grade")
